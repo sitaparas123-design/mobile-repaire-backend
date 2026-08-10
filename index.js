@@ -33,7 +33,7 @@ if (cluster.isPrimary) {
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://alphaphonerepairs.com.au"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
